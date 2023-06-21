@@ -1,11 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap");
+
 body {
+  font-family: "Rubik Pixels", cursive;
   display: flex;
   justify-content: center;
-  
 }
 
 #gamescreen {
-  background-image: url("./assets/Sprites/background-night.png");
+  background-image: url("./assets/Sprites/flappybirdbg.png");
+  background-repeat: no-repeat;
 }
 
-
+.htp {
+  display: flex;
+  
+}

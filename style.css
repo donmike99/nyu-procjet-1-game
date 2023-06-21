@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap");
-
 body {
-  font-family: "Rubik Pixels", cursive;
+  font-family: "Arial Black", Gadget, sans-serif;
   display: flex;
   justify-content: center;
 }
@@ -9,9 +7,22 @@ body {
 #gamescreen {
   background-image: url("./assets/Sprites/flappybirdbg.png");
   background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .htp {
-  display: flex;
-  
+  position: fixed;
+  height: 15vh;
+  width: 20vw;
+  font-size: 100%;
+  color: black;
+  top: 30vh;
+  right: 6vw;
+  text-align: center;
+  border: 5px solid #128dff;
+  border-radius: 18px;
+  -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
 }
